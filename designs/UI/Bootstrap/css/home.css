@@ -35,13 +35,7 @@ body{
 
 
 /*harry porter page*/
-#harrypotterimagecontainer{
-    padding: 10px ;
-    background-color: red;
-    width: 700px;
-    
-    
-}
+
 
 #harrypotterpageimage{
     
@@ -49,10 +43,16 @@ body{
     width: 100%;
     border-radius: 10px;
     float: left;
+    padding-top: 5px
 }
 
 .articlesummurycontainer{
     padding-top: 2rem 
+}
+
+.articlesummary{
+    font-family: 'robot, sans-serif';
+    font-size: 1.24rem
 }
 
 .articlesummurycontainer button{
@@ -74,6 +74,8 @@ body{
 .articlesummurycontainer button:active{
     background: rgb(1, 61, 160);
 }
+
+
 
 
 
