@@ -1,0 +1,34 @@
+.admintaskcontainer{
+    background-color: #F4F4F4;
+    margin: 10% auto;
+    text-align: center;
+    border: 1px solid rgb(1, 61, 160);
+    padding: 50px;
+    
+    
+}
+
+
+.admintask{
+    
+    padding: 1rem;
+    font-family: monospace;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: solid rgb(1, 61, 160) 
+    
+    
+}
+
+button{
+    font-family:monospace;
+    text-transform: uppercase;
+    padding: 1rem;
+    outline: 0;
+    background: rgb(0, 86, 226);
+    padding: 1px;
+    border: 0;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 14px;
+}

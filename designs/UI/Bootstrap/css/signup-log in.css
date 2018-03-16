@@ -18,9 +18,10 @@ body{
     
 #product_name{
     margin: 10px 0 0 10px;
-    font-size: 30px;
+    font-size: 60px;
     font-family: 'robot, sans-serif';
-    color: aliceblue;
+    color: rgb(238, 242, 16);
+    font-family: cursive
 }
 
 #login_registration_page{
