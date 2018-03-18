@@ -2,64 +2,54 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Home</title>
+    <title>Profile</title>
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="Bootstrap/css/profilepic.css">
+    <link rel="stylesheet" href="Bootstrap/css/Profile.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand" href="#">Home-book</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto navbar-center">
+    
+    <nav class="navbar navbar-expand-lg navbar-light navbar-default">
+        <a class="navbar-brand" href="#">Hello-Books</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+  <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+    <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">Library<span class="sr-only">(current)</span></a>
       </li>
+        
+        <li class="nav-item">
+        <a class="nav-link" href="#">Available</a>
+      </li>
+        
       <li class="nav-item">
         <a class="nav-link" href="#">Profile</a>
       </li>
+        
       <li class="nav-item">
         <a class="nav-link" href="#">Histroy</a>
       </li>
+        
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Log In/Log Out
+        </a>
           
-     
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Log Out</a>
+        </div>
+      </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
   </div>
 </nav>
-    
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-                <div id="topbar-cont">
-                    <div id="profilepiccontainer">
-                        <img class="profilepic" src="images/IMG-20161205-WA0003.jpg"> <span id="profilename">Mike Nthiwa</span>
-                    </div>
-                </div>
-                <div class="navcontainer">
-                    Borrowed books
-                </div>
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-md-8">
-                <div class="borrowedbooksconainer">
-                    <div class="imagebookcontainer">
-                        <a href="#"><img class="borrowedbook" src="Bootstrap/css/Harry_Potter_and_the_Chamber_of_Secrets_Logo.jpg"><p>Harry porter</p></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <script src="jquery/jquery-3.3.1.min.js"></script>
-    <script src="Bootstrap/js/bootstrap.min.js"></script>
+    
+    
+<script src="jquery/jquery-3.3.1.min.js"></script>
+<script src="Bootstrap/js/bootstrap.min.js"></script>
+
 </body>
 </html>

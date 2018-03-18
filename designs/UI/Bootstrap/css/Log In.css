@@ -3,7 +3,7 @@ body{
     margin: 0;
     width: 100%;
     height: 100vh;
-    background-image: url(life-863148__340.jpg);
+    background-image: url("clear.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,16 +17,18 @@ body{
 }
     
 #product_name{
-    margin: 10px 0 0 10px;
-    font-size: 60px;
-    font-family: 'robot, sans-serif';
+    margin: 0 0 10p 10px;
+    font-size: 48px;
+    font-family: 'Tangerine';
     color: rgb(238, 242, 16);
-    font-family: cursive
+/*    font-family: cursive;*/
+    text-align: center;
+    font-weight: 700;
 }
 
 #login_registration_page{
     width: 400px;
-    padding: 8% 0 0;
+    padding: 10% 0 0;
     margin: auto;
     
 }
@@ -37,11 +39,12 @@ body{
     position: relative;
     z-index: 1;
     background: rgba(0,0,0,.5);
-    max-width: 400px;
+    max-width: 250px;
     margin: 0 auto 100px;
-    padding: 90px 30px;
+    padding: 55px 30px;
+    padding-bottom: 0
     text-align: center;
-    height: 30rem;
+    height: 22rem;
  
 
 }
@@ -61,12 +64,13 @@ h2
 	padding: 0 0 20px;
 	color: #efed40;
 	text-align: center;
+    font-family: roboto;
 }
 
 .form input{
     font-family: 'robot, sans-serif';
-    width: 250px;
-    margin: 0px 0 30px 0;
+    width: 100%px;
+    margin: 0px 0 10px 0;
     border-radius: 10px;
     outline: none;
     border: 1px solid #555;
@@ -85,11 +89,17 @@ h2
     color: #FFFFFF;
     cursor: pointer;
     font-size: 15px;
+    margin-bottom: 1px
 }
 
 .form input[type="submit"]:hover{
     background: rgb(1, 61, 160);
 }
+
+.form a{
+    margin: 35%;
+    text-decoration: none;
+} 
     
 
 
