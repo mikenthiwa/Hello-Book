@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Modify Book Information</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Bootstrap/css/ModifyBookInformation.css">
+</head>
+<body>
+
+   
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Administrator</a>
+    </nav>
+    
+    <div class="container-fluid">
+        <div class="row">
+            
+            <div class="col-md-6">
+                <div class="admintaskcontainer">
+                    <a class="admintask" href="#">Add Book</a>
+                </div>
+                
+                <div class="admintaskcontainer">
+                    <a class="admintask"  href="#">Modify book information</a>
+                </div>
+                
+                <div class="admintaskcontainer">
+                <a class="admintask" href="#">Delete a book</a>
+                </div>
+                
+                 <div class="admintaskcontainer">
+                <a class="admintask" href="#">Get books</a>
+                </div>
+                
+            </div>
+            
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="dropdown">
+                            <form>
+                                <Button onclick="myFunction()" class="dropbtn" >Book Title</Button>
+                                <div id="myDropdown" class="dropdown-content"><input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                                <a href="#about">About</a>
+                                <a href="#base">Base</a>
+                                <a href="#blog">Blog</a>
+                                <a href="#contact">Contact</a>
+                                <a href="#custom">Custom</a>
+                                <a href="#support">Support</a>
+                                <a href="#tools">Tools</a>
+                                </div>
+                            </form>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+    </div>
+    </div>
+  
+
+    <script src="jquery/jquery-3.3.1.min.js"></script>
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+    
+    <script type="text/javascript">
+        function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    div = document.getElementById("myDropdown");
+    a = div.getElementsByTagName("a");
+    for (i = 0; i < a.length; i++) {
+        if (a[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
+            a[i].style.display = "";
+        } else {
+            a[i].style.display = "none";
+        }
+    }
+}
+    </script>
+</body>
+</html>

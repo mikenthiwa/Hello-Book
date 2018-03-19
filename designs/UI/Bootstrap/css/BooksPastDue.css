@@ -71,53 +71,27 @@ body{
     border-top-left-radius: .6em
 }
 
-.aboutcontainer{
-    width: 100%px;
-    height: 1.9em;
-    background: rgb(156, 167, 186);
-    border: 0.05em solid rgb(206, 211, 219);
-    padding: .3em;
-    font-size: 28px;
-    font-family: 'roboto';
-    margin-bottom: 0.2em;
-    
+
+.col{
+    padding: 1.9em;
 }
 
-.col-md-5{
-    margin-bottom: 1em
+.col-sm-{
+    padding: 0 1.1em;
+    text-align: center;
 }
 
-.profilecontainer{
-    background: #FAEED4;
-    border: 1px solid rgb(206, 211, 219);
-    padding: 0.8em
-}
-
-.profilepic{
-    width: 7.5em;
-    float: left;
-    margin-right: 1em;
+.bookimageinhome{
+    border-radius: 1em;
+    box-shadow: 1px 2px 5px, white;
+    width:9.5em
 }
 
 p{
-    font-size: 18px;
-    font-family: 'roboto'
+    font-size: 18px; 
+    font-family: 'roboto';
+    font-weight: 700
 }
-
-.profilecontainer input{
-    border-radius: 0.2em;
-    border: 1px solid #555;
-    
-}
-
 #act{
     background: rgba(0,0,0,.5);
 }
-
-
-
-
-
-
-
-

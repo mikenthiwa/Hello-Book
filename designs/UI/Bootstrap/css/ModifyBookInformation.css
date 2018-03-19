@@ -43,3 +43,11 @@ body{
     color: black;
     font-style:oblique;
 }
+
+.form {
+    margin-top: 1em;
+    border: 1px solid red;
+    background-color: #F4F4F4;
+    padding: 1em
+}
+
