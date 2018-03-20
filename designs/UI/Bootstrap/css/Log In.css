@@ -10,6 +10,10 @@ body{
        
 }
 
+#product_name p{
+    font-size: 35px;
+}
+
 #top_bar_login_signup{
     width: 100%;
     height: 50px;
@@ -21,13 +25,12 @@ body{
     font-size: 60px;
     font-family: 'Tangerine';
     color: black;
-
     font-weight: 700;
 }
 
 #login_registration_page{
     width: 450px;
-    padding: 6% 0 0;
+    padding:  0 0;
     margin: auto;
     
 }
