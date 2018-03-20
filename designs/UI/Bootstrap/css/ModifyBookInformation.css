@@ -46,8 +46,21 @@ body{
 
 .form {
     margin-top: 1em;
-    border: 1px solid red;
+    border: none;
+    border: 0.15em solid rgb(194, 196, 198);
     background-color: #F4F4F4;
     padding: 1em
 }
+
+
+.form input{
+    margin-bottom: 0.5em;
+    width: 50%
+}
+
+.form textarea{
+    width: 50%;
+    
+}
+
 
