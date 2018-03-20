@@ -45,9 +45,9 @@ body{
     margin: 0 auto 100px;
     padding: 55px 30px;
     padding-bottom: 0;
-    text-align: center;
     height: 22rem;
-    border: 0.11em solid rgba(0,0,0,.5)
+    border-radius: 0.5em;
+    border: 0.3em
  
 
 }
@@ -70,6 +70,27 @@ h2
     font-family: roboto;
 }
 
+.form-check-input {
+    width: 1.2em;
+    height: 1.2em;
+    
+    
+}
+
+.form-check-label{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    padding-left: 0.5em;
+    padding-top: px;
+    
+}
+
+.btn{
+    margin-top: 0.5em;
+}
+
+/*
 .form input{
     font-family: 'robot, sans-serif';
     width: 18em;
@@ -81,7 +102,9 @@ h2
     cursor: pointer;
     font-size: 19px;
 }
+*/
 
+/*
 .form input[type="submit"]{
     font-family: 'robot, sans-serif';
     text-transform: uppercase;
@@ -95,24 +118,31 @@ h2
     font-size: 15px;
     margin-bottom: 1px;
 }
+*/
 
+/*
 .form input[type="submit"]:hover{
     background: rgb(1, 61, 160);
 }
+*/
 
+/*
 .form p{
     font-size: 22px;
     font-family: 'roboto';
     font-weight: 400;
     color: white
 }
+*/
 
+/*
 .form a{
     text-decoration: none;
     font-size: 22px;
     font-weight: 400;
     font-family: 'roboto'
 } 
+*/
     
 
 
