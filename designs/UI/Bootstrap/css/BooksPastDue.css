@@ -1,7 +1,7 @@
 body{
     margin: 0;
     width: 100%;
-    height: 100vh;
+    height: 100;
     background-image: url(home-book.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -48,27 +48,37 @@ body{
     
 }
 
-.vertical_line{
-    margin: 0 6rem;
+.custom{
+    border-bottom: 1px solid green;
+    background-color:white;
+    border-radius: 0.5em;
+    margin-bottom: 2em
+}
+.imgcont {
+    overflow: hidden;
+	position: absolute;
+	top: calc(-305px/2);
+	left: calc(40% - 50px);
+    width: 150px;
+	height: 150px;
+	border-radius: 50%;
+    background-image: url(IMG-20161205-WA0003.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.profleimage_cont{
+    background-image: url(books.jpg);
+    height: 9.6em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     
-    height: 8px;
- 
 }
-
-.secondnav a{
-    font-weight: 700;
-    text-decoration: none;
-    cursor: pointer;
-    color: whitesmoke;
-    padding: 0.5em;
-}
-
-.secondnav a:hover{
-    background: rgba(0,0,0,.5);
-    border-bottom-left-radius: 0.6em;
-    border-bottom-right-radius: 0.6em;
-    border-top-right-radius: .6em;
-    border-top-left-radius: .6em
+.col-md-12{
+   padding: 0; 
 }
 
 

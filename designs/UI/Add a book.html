@@ -37,18 +37,27 @@
             
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-5">
-                        <div class="form">
-                            <form>
-                                <input type="text" placeholder="Titile"><br>
-                                <textarea rows="8" placeholder="descrption"></textarea> <br>
-                                <input name="myFile" type="file">
-                                <input type="submit" value="Add Book">
-                            </form>
+                <div class="col-md-8">
+                <div class="form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Title">
                         </div>
+
+                        <div class="form-group">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Description.." rows="5"></textarea>
+                        </div>
+
+                        <div class="custom-file">
+                          <input type="file" class="custom-file-input" id="customFile">
+                          <label class="custom-file-label" for="customFile">Choose file</label> 
+                        </div>
+                        <button type="submit" class="btn btn-primary">Add</button>
                         
-                    </div>
-                    
+                        
+                    </form>
+                </div>    
+                </div>
                 </div>
             </div>
             
