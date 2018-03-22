@@ -37,87 +37,89 @@ body{
     font-weight: 900
               
 }
+.col-md-12{
+   padding: 0; 
+}
 
-.secondnav{
-    text-align: center;
-    background: rgba(0,0,0,.5);;
-    padding: 0.5rem;
-    border-bottom-left-radius: 0.5em;
-    border-bottom-right-radius: 0.5em;
-    margin-bottom: 1.5em
+.profleimage_cont{
+    background-image: url(books.jpg);
+    height: 9.6em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 
-.vertical_line{
-    margin: 0 6rem;
-    
-    height: 8px;
- 
+.custom{
+    padding-top: 10
 }
 
-.secondnav a{
-    font-weight: 700;
-    text-decoration: none;
-    cursor: pointer;
-    color: whitesmoke;
-    padding: 0.5em;
+.imgcont {
+    overflow: hidden;
+	position: absolute;
+	top: calc(-305px/2);
+	left: calc(40% - 50px);
+    width: 150px;
+	height: 150px;
+	border-radius: 50%;
+    background-image: url(Avengers.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
 }
 
-.secondnav a:hover{
-    background: rgba(0,0,0,.5);
-    border-bottom-left-radius: 0.6em;
-    border-bottom-right-radius: 0.6em;
-    border-top-right-radius: .6em;
-    border-top-left-radius: .6em
+.col-md-1{
+    margin-right: 2em
 }
 
-.aboutcontainer{
-    width: 100%px;
-    height: 1.9em;
-    background: rgb(156, 167, 186);
-    border: 0.05em solid rgb(206, 211, 219);
-    padding: .3em;
-    font-size: 28px;
-    font-family: 'roboto';
-    margin-bottom: 0.2em;
+.secnav{
+    background-color: red;
     
 }
 
-.col-md-5{
-    margin-bottom: 1em
+.custom{
+    border-bottom: 1px solid green;
+    background-color:white;
+    border-radius: 0.5em;
 }
 
-.profilecontainer{
-    background: #FAEED4;
-    border: 1px solid rgb(206, 211, 219);
-    padding: 0.8em
-}
 
-.profilepic{
-    width: 7.5em;
-    float: left;
-    margin-right: 1em;
-}
 
-p{
-    font-size: 18px;
+h3 {
+    color: blue;
     font-family: 'roboto'
 }
 
-.profilecontainer input{
-    border-radius: 0.2em;
-    border: 1px solid #555;
+.container-fluid {
     
 }
 
-#act{
+.profile_details{
     background: rgba(0,0,0,.5);
+    margin-bottom: 0.5em;
+    border-radius: 0.8em
 }
 
+h4 {
+    float: left;
+    margin-right: 10px;
+    font-family: 'roboto';
+}
 
+span {
+    font-family: 'roboto';
+    font-size: 20px;
+    color: white;
+}
 
+.clear {
+    clear: both;
+}
 
-
-
-
-
+.profile_detail {
+    background: rgba(0,0,0,.5);
+    padding: 0.6em;
+    margin: 1em;
+    border-radius: 1em
+}

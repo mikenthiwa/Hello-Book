@@ -10,7 +10,7 @@
 
    
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Administrator</a>
+    <a class="navbar-brand" href="#">Administrator</a>
     </nav>
     
     <div class="container-fluid">
@@ -25,8 +25,8 @@
                     <a class="admintask"  href="#">Modify book information</a>
                 </div>
                 
-                <div class="admintaskcontainer">
-                <a class="admintask" href="#">Delete a book</a>
+            <div class="admintaskcontainer">
+            <a class="admintask" href="#">Delete a book</a>
                 </div>
                 
                  <div class="admintaskcontainer">
@@ -37,18 +37,27 @@
             
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-5">
-                        <div class="form">
-                            <form>
-                                <input type="text" placeholder="Titile"><br>
-                                <textarea rows="8" placeholder="descrption"></textarea> <br>
-                                <input name="myFile" type="file">
-                                <input type="submit" value="Add Book">
-                            </form>
+                <div class="col-md-8">
+                <div class="form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" d="formGroupExampleInput" placeholder="Title">
                         </div>
+
+                        <div class="form-group">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Description.." rows="5"></textarea>
+                        </div>
+
+                        <div class="custom-file">
+                          <input type="file" class="custom-file-input" id="customFile">
+                          <label class="custom-file-label" for="customFile">Choose file</label> 
+                        </div>
+                        <button type="submit" class="btn btn-primary">Add</button>
                         
-                    </div>
-                    
+                        
+                    </form>
+                </div>    
+                </div>
                 </div>
             </div>
             
