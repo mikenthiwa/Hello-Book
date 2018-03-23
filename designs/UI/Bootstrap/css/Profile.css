@@ -62,11 +62,9 @@ body{
     width: 150px;
 	height: 150px;
 	border-radius: 50%;
-<<<<<<< HEAD
-    background-image: url(Avengers.jpg);
-=======
+
     background-image: url(IMG-20161205-WA0003.jpg);
->>>>>>> b8bf939b9f2233eb2074fbc0ea237bb54585dfec
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -126,12 +124,4 @@ span {
     padding: 0.6em;
     margin: 1em;
     border-radius: 1em
-<<<<<<< HEAD
-}
-=======
-}
 
-
-
-
->>>>>>> b8bf939b9f2233eb2074fbc0ea237bb54585dfec
