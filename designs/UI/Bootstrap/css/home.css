@@ -56,7 +56,9 @@ body{
 p{
     font-size: 18px; 
     font-family: 'roboto';
-    font-weight: 700
+    font-weight: 700;
+    text-decoration: none;
+    
 }
 
 
@@ -73,11 +75,9 @@ button{
     font-weight: 700;
 }
 
-.col-sm- a {
+col-sm- a {
     text-decoration: none;
 }
-
-
 
 
 

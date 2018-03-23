@@ -29,7 +29,7 @@ body{
 }
 
 #login_registration_page{
-    width: 450px;
+    max-width: 450px;
     padding: 3%  0 0;
     margin: auto;
     
@@ -90,61 +90,3 @@ h2
     margin-top: 0.5em;
 }
 
-/*
-.form input{
-    font-family: 'robot, sans-serif';
-    width: 18em;
-    margin: 0px 0 10px 0;
-    border-radius: 15px;
-    outline: none;
-    border: 1px solid #555;
-    padding: 8px;
-    cursor: pointer;
-    font-size: 19px;
-}
-*/
-
-/*
-.form input[type="submit"]{
-    font-family: 'robot, sans-serif';
-    text-transform: uppercase;
-    padding: 10px;
-    outline: 0;
-    background: rgb(0, 86, 226);
-    width: 100%;
-    border: 0;
-    color: #FFFFFF;
-    cursor: pointer;
-    font-size: 15px;
-    margin-bottom: 1px;
-}
-*/
-
-/*
-.form input[type="submit"]:hover{
-    background: rgb(1, 61, 160);
-}
-*/
-
-/*
-.form p{
-    font-size: 22px;
-    font-family: 'roboto';
-    font-weight: 400;
-    color: white
-}
-*/
-
-/*
-.form a{
-    text-decoration: none;
-    font-size: 22px;
-    font-weight: 400;
-    font-family: 'roboto'
-} 
-*/
-    
-
-
-
-    
