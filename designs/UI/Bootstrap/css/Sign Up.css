@@ -31,7 +31,11 @@ body{
 }
 
 #login_registration_page{
+<<<<<<< HEAD
     max-width: 450px;
+=======
+    width: 450px;
+>>>>>>> b8bf939b9f2233eb2074fbc0ea237bb54585dfec
     padding: 8% 0 0;
     margin: auto;
     
